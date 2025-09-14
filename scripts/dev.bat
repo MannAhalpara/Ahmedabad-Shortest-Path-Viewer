@@ -1,0 +1,1 @@
+@echo off echo Starting backend... start cmd /k "cd backend && venv\Scripts\activate && python app.py" echo Starting frontend... start cmd /k "cd frontend && pnpm dev" echo Backend running on http://localhost:8000 echo Frontend running on http://localhost:5173
